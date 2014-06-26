@@ -16,33 +16,32 @@ using namespace std;
 int main()
 {
    
-    Workout w;
-    Athlete  a;
-    a.introduction();
-    a.askForInformation();
-    a.askForBSC();
-    w.WorkoutPlan();
+    Workout w;//redifines workout class to "w"
+    Athlete  a;//redifines athlete class to "a"
+    
+    a.introduction();//Introduction function
+    a.askForInformation();//asks user for info funtion
+    a.askForBSC();//asks user for BSC (bench squat clean) function
+    w.WorkoutPlan();//outputs workout plan
     
     
-     /*string filename = "MomentumPerformance.txt.rtf";
+    string filename = "MomentumPerformance.txt.rtf";
     ofstream input;
-    input.open("MomentumPerformance.txt.rtf");
+    input.open(filename);
     if(input.fail()){
         cout<< "cant open file" << endl;
         return 0;
     }
     
     cout << "file available" << endl;
-    cout << "Enter a string " << endl;
-    string string;
-    cin >> string;
-    input << string;*/
     
-    /*for (int i =0; i<10; i++)
-     input<< "line " << i << endl;*/
+    string line = w.WorkoutPlan();
     
     
-    /*input.close();
+    input << line;
+    
+    
+    input.close();
     
     ifstream fin;
     fin.open(filename);
@@ -51,10 +50,10 @@ int main()
         cout << "can't read in file" << endl;
         return 0;
     }
-    while (getline(fin, string)) {
-        cout << "File has string, string name is: " << endl;
-        cout << string << endl;
-    }*/
+    while (getline(fin, line)) {
+        cout << "This is your workout: " << endl;
+        cout << line << endl;
+    }
     
     
     

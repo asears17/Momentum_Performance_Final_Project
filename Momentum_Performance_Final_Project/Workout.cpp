@@ -22,24 +22,11 @@ void Workout:: WorkoutPlan()//outputs workoutplan with name, age, height... at t
     a.getSquat();
     a.getClean();
     
+    cout << "One Arm DB Press " << "8x   " << "   8x" << "   8x\n\n\n" << endl;//outputs the workout
+    cout << "RDL " << "10x" << "10x   " << "   8x/n/n/n" << endl;
+    cout << "DB Hang Clean " << "8x   " << "8x   " << "   8x\n\n\n" << endl;
+    cout << "Lying Tricep Extension " << "10x   " << "   10x" << "   10x\n\n\n" << endl;
+    cout << "DB Split Squat " << "8x   " << "   8x" << "   8x\n\n\n" << endl;
 }
 
-void OneArmDBPress(){
-    
-}
 
-void RDL(){
-    
-}
-
-void DBHangClean(){
-    
-}
-
-void LyingTricepsExtension(){
-    
-}
-
-void DBSplitSquat(){
-    
-}

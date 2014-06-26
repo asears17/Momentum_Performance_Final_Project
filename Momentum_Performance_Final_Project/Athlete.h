@@ -21,21 +21,23 @@ public:
     void askForInformation();
     void askForBSC();
     
-    string Name;//users information
-    int Age;
-    double Height;
-    double Weight;
+    Athlete();//default information of athlete
     
-    int Bench;//Users BSC numbers
-    int Squat;
-    int Clean;
+    string name;//users information
+    int age;
+    double height;
+    double weight;
+    
+    int bench;//Users BSC numbers
+    int squat;
+    int clean;
     
     void getName();//returns users information into .txt file
     void getAge();
     void getHeight();
     void getWeight();
     
-    void getBench();//returns users information into .txt file + formula
+    void getBench();//returns users information into .txt file
     void getSquat();
     void getClean();
     

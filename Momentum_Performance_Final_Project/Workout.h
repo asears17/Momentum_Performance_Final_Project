@@ -19,11 +19,7 @@ public:
     
     void WorkoutPlan();
     
-    void OneArmDBPress();
-    void RDL();
-    void DBHangClean();
-    void LyingTricepsExtension();
-    void DBSplitSquat();
+   
     
 };
 

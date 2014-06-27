@@ -25,7 +25,7 @@ int main()
     w.WorkoutPlan();//outputs workout plan
     
     
-    string filename = "MomentumPerformance.txt.rtf";
+   /*string filename = "MomentumPerformance.txt.rtf";
     ofstream input;
     input.open(filename);
     if(input.fail()){
@@ -35,10 +35,10 @@ int main()
     
     cout << "file available" << endl;
     
-    string line = w.WorkoutPlan();
+    /*string line = w.WorkoutPlan();*/
     
     
-    input << line;
+    /*input << line;
     
     
     input.close();
@@ -53,7 +53,7 @@ int main()
     while (getline(fin, line)) {
         cout << "This is your workout: " << endl;
         cout << line << endl;
-    }
+    }*/
     
     
     

@@ -8,6 +8,22 @@
 
 #include "Workout.h"
 
+
+Workout ::Workout()
+{
+    Athlete a;
+    
+    a.age = 0;
+    a.height= 0;
+    a.weight = 0;
+    a.bench = 0;
+    a.squat = 0;
+    a.clean = 0;
+    
+}
+
+
+
 void Workout:: WorkoutPlan()//outputs workoutplan with name, age, height... at the top of plan
 {
     Athlete a;
@@ -23,7 +39,7 @@ void Workout:: WorkoutPlan()//outputs workoutplan with name, age, height... at t
     a.getClean();
     
     cout << "One Arm DB Press " << "8x   " << "   8x" << "   8x\n\n\n" << endl;//outputs the workout
-    cout << "RDL " << "10x" << "10x   " << "   8x/n/n/n" << endl;
+    cout << "RDL " << "10x" << "10x   " << "   10x\n\n\n" << endl;
     cout << "DB Hang Clean " << "8x   " << "8x   " << "   8x\n\n\n" << endl;
     cout << "Lying Tricep Extension " << "10x   " << "   10x" << "   10x\n\n\n" << endl;
     cout << "DB Split Squat " << "8x   " << "   8x" << "   8x\n\n\n" << endl;

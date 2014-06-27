@@ -19,6 +19,8 @@ public:
     
     void WorkoutPlan();
     
+    Workout();
+    
    
     
 };

@@ -19,7 +19,13 @@ Workout ::Workout()
     a.bench = 0;
     a.squat = 0;
     a.clean = 0;
+        
     
+}
+
+Workout ::Workout(Athlete& newathlete)
+{
+    a= newathlete;
 }
 
 

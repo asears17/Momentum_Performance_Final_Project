@@ -15,12 +15,17 @@
 using namespace std;
 
 class Workout{
+
+private:
+    Athlete a;
+
 public:
+    
     
     void WorkoutPlan();
     
     Workout();
-    
+    Workout(Athlete& newathlete);
    
     
 };

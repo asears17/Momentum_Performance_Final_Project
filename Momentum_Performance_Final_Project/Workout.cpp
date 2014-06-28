@@ -9,7 +9,7 @@
 #include "Workout.h"
 
 
-Workout ::Workout()
+Workout ::Workout()//STAYED THE SAME
 {
     Athlete a;
     
@@ -23,7 +23,7 @@ Workout ::Workout()
     
 }
 
-Workout ::Workout(Athlete& newathlete)
+Workout ::Workout(Athlete& newathlete)//CHANGE
 {
     a= newathlete;
 }

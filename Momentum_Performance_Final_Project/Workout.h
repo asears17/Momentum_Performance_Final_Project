@@ -25,7 +25,7 @@ public:
     void WorkoutPlan();
     
     Workout();
-    Workout(Athlete& newathlete);
+    Workout(Athlete& newathlete);//CHANGE
    
     
 };

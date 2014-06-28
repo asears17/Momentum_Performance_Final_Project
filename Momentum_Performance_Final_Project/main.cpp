@@ -16,7 +16,7 @@ using namespace std;
 int main()
 {
    
-    Workout w(a);//redifines workout class to "w"
+    Workout w(a);//redifines workout class to "w"//CHANGE
     Athlete  a;//redifines athlete class to "a"
     
     a.introduction();//Introduction function

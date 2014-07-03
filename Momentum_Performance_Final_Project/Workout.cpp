@@ -12,7 +12,6 @@
 Workout ::Workout()//STAYED THE SAME
 {
     Athlete a;
-    
     a.age = 0;
     a.height= 0;
     a.weight = 0;
@@ -32,7 +31,6 @@ Workout ::Workout(Athlete& newathlete)//CHANGE
 
 void Workout:: WorkoutPlan()//outputs workoutplan with name, age, height... at the top of plan
 {
-    Athlete a;
     cout << "\n\n\nHere is a workout plan based on the numbers you gave the program.\n\n";
     a.getName();
     a.getAge();

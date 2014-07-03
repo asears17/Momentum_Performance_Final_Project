@@ -16,16 +16,17 @@ using namespace std;
 int main()
 {
    
-    Workout w(a);//redifines workout class to "w"//CHANGE
+    
     Athlete  a;//redifines athlete class to "a"
     
     a.introduction();//Introduction function
     a.askForInformation();//asks user for info funtion
     a.askForBSC();//asks user for BSC (bench squat clean) function
+    Workout w(a);//redifines workout class to "w"//CHANGE
     w.WorkoutPlan();//outputs workout plan
     
     
-   /*string filename = "MomentumPerformance.txt.rtf";
+   string filename = "MomentumPerformance.txt.rtf";
     ofstream input;
     input.open(filename);
     if(input.fail()){
@@ -35,15 +36,15 @@ int main()
     
     cout << "file available" << endl;
     
-    /*string line = w.WorkoutPlan();*/
+    string line = Workout::WorkoutPlan();//trying to input the workout plan into string
     
     
-    /*input << line;
+    input << line;//call string to file
     
     
-    input.close();
+    input.close();//close file
     
-    ifstream fin;
+    ifstream fin;//open file
     fin.open(filename);
     if(fin.fail())
     {
@@ -51,9 +52,9 @@ int main()
         return 0;
     }
     while (getline(fin, line)) {
-        cout << "This is your workout: " << endl;
+        cout << "This is your workout: " << endl;//call file and print out whats in file.
         cout << line << endl;
-    }*/
+    }
     
     
     
